@@ -1,0 +1,19 @@
+SABOR & ARTE — CACAO TABASQUEÑO
+
+ARCHIVOS
+- index.html: contenido y estructura de la página.
+- style.css: colores, diseño y adaptación a celular.
+- script.js: menú móvil, año automático y formulario de demostración.
+- imagenes/: ilustraciones SVG de muestra.
+
+CÓMO VER LA PÁGINA
+1. Descomprime la carpeta.
+2. Abre index.html con doble clic para verla en tu navegador.
+3. Para publicarla, sube index.html, style.css, script.js y la carpeta imagenes a la raíz de tu repositorio de GitHub.
+
+ANTES DE ENTREGAR
+- Cambia “Integrante 1”, etc. por los nombres reales.
+- Reemplaza imagenes/chef-placeholder.svg por las fotos del equipo. Si usas JPG, cambia también la ruta de imagen en index.html.
+- Las imágenes incluidas son ilustraciones de muestra, no fotografías reales.
+- Los precios y los datos de contacto son ejemplos para un proyecto escolar.
+- El formulario de reservaciones es demostrativo y no envía información a un servidor.
