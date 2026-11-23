@@ -1,175 +1,24 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Sabor & Arte: restaurante inspirado en el cacao y la gastronomía tabasqueña.">
-  <title>Sabor & Arte | Cacao Tabasqueño</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
-</head>
-<body>
-  <header class="site-header">
-    <a class="logo" href="#inicio" aria-label="Sabor y Arte, inicio">
-      <span class="logo-mark">✦</span>
-      <span>SABOR <em>&</em> ARTE<small> CACAO TABASQUEÑO</small></span>
-    </a>
-    <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button>
-    <nav id="main-nav" class="main-nav">
-      <a href="#inicio">Inicio</a>
-      <a href="#nosotros">Nosotros</a>
-      <a href="#menu">Menú</a>
-      <a href="#especialidades">Especialidades</a>
-      <a href="#galeria">Galería</a>
-      <a href="#equipo">Equipo</a>
-      <a href="#reservaciones">Reservaciones</a>
-      <a href="#contacto">Contacto</a>
-    </nav>
-  </header>
-
-  <main>
-    <section id="inicio" class="hero">
-      <div class="hero-content">
-        <p class="eyebrow">TRADICIÓN · CULTURA · SABOR</p>
-        <h1>El alma de Tabasco,<br><span>en cada bocado.</span></h1>
-        <p>Descubre el cacao tabasqueño a través de sabores, recetas y experiencias que celebran nuestras raíces.</p>
-        <div class="hero-actions">
-          <a class="button button-gold" href="#menu">Explorar menú</a>
-          <a class="button button-outline" href="#nosotros">Conócenos</a>
-        </div>
-      </div>
-      <div class="hero-art">
-        <img src="Fruto del cacao.jpg" alt="Ilustración de una mazorca de cacao abierta con granos">
-        <div class="hero-stamp">ORGULLO<br><strong>TABASQUEÑO</strong></div>
-      </div>
-      <div class="hero-bottom">DEL GRANO A LA MESA <span>✦</span> SABORES CON HISTORIA</div>
-    </section>
-
-    <section id="nosotros" class="section about-section">
-      <div class="section-image">
-        <img src="planta de cacao.jpg" alt="Ilustración de una planta de cacao">
-        <span class="image-caption">Un legado que florece</span>
-      </div>
-      <div class="section-copy">
-        <p class="eyebrow">NUESTRA HISTORIA</p>
-        <h2>Una tradición que <span>nos inspira</span></h2>
-        <p>En Sabor & Arte celebramos la riqueza del cacao tabasqueño y su lugar en la cocina mexicana. Nuestra propuesta une ingredientes regionales, creatividad y respeto por las tradiciones.</p>
-        <p>Queremos que cada visita sea una oportunidad para conocer el cacao desde su origen hasta sus deliciosas posibilidades en la mesa.</p>
-        <div class="values-grid">
-          <article><span>01</span><h3>Misión</h3><p>Ofrecer una experiencia gastronómica que destaque el cacao y los sabores de Tabasco con calidad, creatividad y calidez.</p></article>
-          <article><span>02</span><h3>Visión</h3><p>Ser una propuesta reconocida por compartir la cultura del cacao tabasqueño y promover el orgullo por nuestra gastronomía.</p></article>
-          <article><span>03</span><h3>Filosofía</h3><p>Honrar el origen, valorar el trabajo de quienes cultivan y transformar ingredientes locales con respeto e imaginación.</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="fact-band">
-      <div><strong>ORIGEN</strong><span>Tabasco, México</span></div>
-      <div><strong>INGREDIENTE ESTRELLA</strong><span>Cacao y chocolate</span></div>
-      <div><strong>ESTILO</strong><span>Tradición con creatividad</span></div>
-    </section>
-
-    <section id="menu" class="section menu-section">
-      <div class="section-heading">
-        <p class="eyebrow">HECHO CON CACAO</p>
-        <h2>Nuestro <span>menú</span></h2>
-        <p>Una propuesta de platillos y bebidas inspirados en los sabores de nuestra región.</p>
-      </div>
-      <div class="menu-grid">
-        <article class="menu-card"><img src="Pollo en mole de cacao.JPG" alt="Ilustración de mole"><div><span class="menu-category">PLATILLO FUERTE</span><h3>Pollo en mole de cacao</h3><p>Pollo bañado en mole especiado con cacao y notas ligeramente amargas.</p><strong>$185 MXN</strong></div></article>
-        <article class="menu-card"><img src="Chocolate artesanal.JPG" alt="Ilustración de chocolate caliente"><div><span class="menu-category">BEBIDA</span><h3>Chocolate artesanal</h3><p>Bebida caliente de cacao con canela y un toque de vainilla.</p><strong>$65 MXN</strong></div></article>
-        <article class="menu-card"><img src="pastel intenso de chocolate.JPG" alt="Ilustración de pastel de chocolate"><div><span class="menu-category">POSTRE</span><h3>Pastel intenso de chocolate</h3><p>Bizcocho húmedo con chocolate y una cubierta suave de cacao.</p><strong>$95 MXN</strong></div></article>
-        <article class="menu-card"><img src="Pozol con cacao.JPG" alt="Ilustración de una jícara de pozol"><div><span class="menu-category">BEBIDA TRADICIONAL</span><h3>Pozol con cacao</h3><p>Bebida tradicional de maíz y cacao, servida fría.</p><strong>$45 MXN</strong></div></article>
-        <article class="menu-card"><img src="brownie de cacao.JPG" alt="Ilustración de brownie"><div><span class="menu-category">POSTRE</span><h3>Brownie de cacao</h3><p>Cuadro de chocolate con centro suave y trocitos de cacao.</p><strong>$70 MXN</strong></div></article>
-        <article class="menu-card"><img src="verduras en salsa de cacao.JPG" alt="Ilustración de salsa de cacao"><div><span class="menu-category">ENTRADA</span><h3>Verduras con salsa de cacao</h3><p>Verduras de temporada con una salsa salada de cacao y especias.</p><strong>$90 MXN</strong></div></article>
-        <article class="menu-card"><img src="helado de chocolate.JPG" alt="Ilustración de helado de chocolate"><div><span class="menu-category">POSTRE</span><h3>Helado de chocolate</h3><p>Helado cremoso de chocolate, terminado con nibs de cacao.</p><strong>$75 MXN</strong></div></article>
-        <article class="menu-card"><img src="galletas de cacao.JPG" alt="Ilustración de galletas de cacao"><div><span class="menu-category">PANADERÍA</span><h3>Galletas de cacao</h3><p>Galletas horneadas con cacao y chispas de chocolate.</p><strong>$55 MXN</strong></div></article>
-      </div>
-      <p class="menu-note">Precios ilustrativos para el proyecto escolar; pueden ajustarse según los costos reales.</p>
-    </section>
-
-    <section id="especialidades" class="section specialties-section">
-      <div class="section-heading">
-        <p class="eyebrow">DEL CAMPO A LA COCINA</p>
-        <h2>Especialidades del <span>cacao</span></h2>
-      </div>
-      <div class="specialty-grid">
-        <article class="specialty-card"><div class="specialty-number">01</div><h3>Historia y cultura</h3><p>El cacao tiene una larga historia en Mesoamérica y forma parte de tradiciones alimentarias y culturales de pueblos originarios. En Tabasco sigue siendo un símbolo de identidad regional.</p></article>
-        <article class="specialty-card"><div class="specialty-number">02</div><h3>Fermentación y secado</h3><p>Después de extraer las semillas de la mazorca, se fermentan durante varios días y luego se secan. Estos pasos ayudan a desarrollar los aromas que caracterizan al cacao.</p></article>
-        <article class="specialty-card"><div class="specialty-number">03</div><h3>Del grano a la barra</h3><p>El método bean-to-bar busca controlar el proceso desde la selección del grano hasta la barra: limpieza, tostado, descascarillado, molienda, refinado y moldeado.</p></article>
-      </div>
-    </section>
-
-    <section id="galeria" class="section gallery-section">
-      <div class="section-heading">
-        <p class="eyebrow">UN MUNDO DE SABORES</p>
-        <h2>Galería de <span>inspiración</span></h2>
-        <p>Ilustraciones de muestra para organizar la galería. Puedes sustituirlas por fotografías propias.</p>
-      </div>
-      <div class="gallery-grid">
-        <figure><img src="Fruto del cacao.jpg" alt="Mazorcas y granos de cacao"><figcaption>El fruto del cacao</figcaption></figure>
-        <figure><img src="planta de cacao.jpg" alt="Planta de cacao"><figcaption>El cultivo</figcaption></figure>
-        <figure><img src="Chocolate artesanal.JPG" alt="Chocolate artesanal"><figcaption>Chocolate artesanal</figcaption></figure>
-        <figure><img src="Pozol con cacao.JPG" alt="Pozol tradicional"><figcaption>Pozol con cacao</figcaption></figure>
-        <figure><img src="Pollo en mole de cacao.JPG" alt="Mole con cacao"><figcaption>Cocina con cacao</figcaption></figure>
-        <figure><img src="postre de chocolate.JPG" alt="Postre de chocolate"><figcaption>Postres de chocolate</figcaption></figure>
-      </div>
-    </section>
-
-    <section id="equipo" class="section team-section">
-      <div class="section-heading">
-        <p class="eyebrow">QUIÉNES SOMOS</p>
-        <h2>Equipo <span>Sabor & Arte</span></h2>
-        <p>Reemplacen “Integrante” con los nombres completos del equipo y agreguen sus fotografías con uniforme de chef si la guía lo solicita.</p>
-      </div>
-      <div class="team-grid">
-        <article class="team-card"><img src="imagenes/chef-placeholder.svg" alt="Espacio para fotografía del integrante 1"><h3>MIGUEL ANGEL ARIAS </h3><p>Líder y encargado de GitHub</p></article>
-        <article class="team-card"><img src="imagenes/chef-placeholder.svg" alt="Espacio para fotografía del integrante 2"><h3>FATIMA DEL PILAR PEREZ</h3><p>Investigación histórica</p></article>
-        <article class="team-card"><img src="imagenes/chef-placeholder.svg" alt="Espacio para fotografía del integrante 3"><h3>MARIA GUADALUPE DOMINGUEZ</h3><p>Menú y especialidades</p></article>
-        <article class="team-card"><img src="imagenes/chef-placeholder.svg" alt="Espacio para fotografía del integrante 4"><h3>ALEXIS GUTIERREZ</h3><p>Fotografías y diseño</p></article>
-       
-    </section>
-
-    <section id="reservaciones" class="section reservation-section">
-      <div class="reservation-copy">
-        <p class="eyebrow">TE ESPERAMOS</p>
-        <h2>Reserva tu <span>experiencia</span></h2>
-        <p>Completa el formulario de demostración para practicar cómo se vería una reservación en la página.</p>
-        <p class="small-note">Aviso: este formulario es demostrativo y no envía reservas reales.</p>
-      </div>
-      <form id="reservation-form" class="reservation-form">
-        <label for="name">Nombre completo</label>
-        <input id="name" name="name" type="text" placeholder="Tu nombre" required>
-        <div class="form-row">
-          <div><label for="date">Fecha</label><input id="date" name="date" type="date" required></div>
-          <div><label for="people">Personas</label><select id="people" name="people"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6 o más</option></select></div>
-        </div>
-        <label for="message">Comentarios (opcional)</label>
-        <textarea id="message" name="message" rows="3" placeholder="¿Alguna ocasión especial?"></textarea>
-        <button class="button button-gold" type="submit">Enviar solicitud de prueba</button>
-        <p id="form-message" class="form-message" aria-live="polite"></p>
-      </form>
-    </section>
-
-    <section id="contacto" class="section contact-section">
-      <div class="section-heading">
-        <p class="eyebrow">ENCUÉNTRANOS</p>
-        <h2>Contacto</h2>
-        <p>Los datos siguientes son ficticios y se incluyen únicamente como ejemplo para el proyecto escolar.</p>
-      </div>
-      <div class="contact-grid">
-        <article><span>⌖</span><h3>Ubicación de ejemplo</h3><p>C0malcalco, Tabasco, México</p></article>
-        <article><span>☎</span><h3>Teléfono de ejemplo</h3><p>9371384318</p></article>
-        <article><span>✉</span><h3>Correo de ejemplo</h3><p>contacto@saborarte.example</p></article>
-        <article><span>◷</span><h3>Horario de ejemplo</h3><p>Lunes a domingo · 1:00 p. m. – 9:00 p. m.</p></article>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <a class="logo footer-logo" href="#inicio"><span class="logo-mark">✦</span><span>SABOR <em>&</em> ARTE<small> CACAO TABASQUEÑO</small></span></a>
-    <p>Un homenaje al cacao y a la gastronomía de Tabasco.</p>
-    <p class="copyright">© <span id="year"></span> Sabor & Arte · Proyecto escolar</p>
-  </footer>
-</body>
-</html>
+<!DOCTYPE html><html lang="es"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta name="description" content="Sabor & Arte: restaurante inspirado en el cacao y la gastronomía tabasqueña."><title>Sabor & Arte | Cacao Tabasqueño</title><link rel="stylesheet" href="style.css"><script src="script.js" defer></script>
+<style>
+/* Solo estilos de la nueva función Saber más */
+.menu-categories{display:flex;flex-wrap:wrap;justify-content:center;gap:10px;margin:22px auto 30px;max-width:950px}.menu-categories button{border:1px solid #a88345;border-radius:30px;padding:10px 17px;background:transparent;color:inherit;font:inherit;cursor:pointer}.menu-categories button.active,.menu-categories button:hover{background:#b58a3c;color:#fff}.menu-card[hidden]{display:none!important}.learn-more{display:inline-block;margin:12px 0 0 14px;padding:8px 13px;border:1px solid #b58a3c;border-radius:22px;background:#b58a3c;color:#fff;font:inherit;cursor:pointer}.learn-more:hover{filter:brightness(.9)}.learn-more-dialog{border:0;border-radius:18px;padding:0;max-width:min(92vw,700px);max-height:90vh;overflow:auto;background:#fffdf8;color:#27241c;box-shadow:0 20px 80px #0005}.learn-more-dialog::backdrop{background:#000a}.detail-body{padding:25px}.detail-body img{width:100%;height:230px;object-fit:cover;border-radius:12px}.detail-body h2{margin:14px 0}.detail-body h3{margin:18px 0 6px}.detail-close{float:right;border:0;border-radius:50%;background:#273f2b;color:white;width:36px;height:36px;font-size:22px;cursor:pointer}.detail-body p{line-height:1.65}.detail-price{font-weight:700;color:#856021}
+</style></head><body><header class="site-header"><a class="logo" href="#inicio" aria-label="Sabor y Arte, inicio"><span class="logo-mark">✦</span><span>SABOR <em>&</em> ARTE<small> CACAO TABASQUEÑO</small></span></a><button class="menu-toggle" id="menu-toggle" aria-label="Abrir menú" aria-expanded="false">☰</button><nav id="main-nav" class="main-nav"><a href="#inicio">Inicio</a><a href="#nosotros">Nosotros</a><a href="#menu">Menú</a><a href="#especialidades">Especialidades</a><a href="#galeria">Galería</a><a href="#equipo">Equipo</a><a href="#reservaciones">Reservaciones</a><a href="#contacto">Contacto</a></nav></header><main>
+<section id="inicio" class="hero"><div class="hero-content"><p class="eyebrow">TRADICIÓN · CULTURA · SABOR</p><h1>El alma de Tabasco,<br><span>en cada bocado.</span></h1><p>Descubre el cacao tabasqueño a través de sabores, recetas y experiencias que celebran nuestras raíces.</p><div class="hero-actions"><a class="button button-gold" href="#menu">Explorar menú</a><a class="button button-outline" href="#nosotros">Conócenos</a></div></div><div class="hero-art"><img src="Fruto del cacao.jpg" alt="Ilustración de una mazorca de cacao abierta con granos"><div class="hero-stamp">ORGULLO<br><strong>TABASQUEÑO</strong></div></div><div class="hero-bottom">DEL GRANO A LA MESA <span>✦</span> SABORES CON HISTORIA</div></section>
+<section id="nosotros" class="section about-section"><div class="section-image"><img src="planta de cacao.jpg" alt="Ilustración de una planta de cacao"><span class="image-caption">Un legado que florece</span></div><div class="section-copy"><p class="eyebrow">NUESTRA HISTORIA</p><h2>Una tradición que <span>nos inspira</span></h2><p>En Sabor & Arte celebramos la riqueza del cacao tabasqueño y su lugar en la cocina mexicana. Nuestra propuesta une ingredientes regionales, creatividad y respeto por las tradiciones.</p><p>Queremos que cada visita sea una oportunidad para conocer el cacao desde su origen hasta sus deliciosas posibilidades en la mesa.</p><div class="values-grid"><article><span>01</span><h3>Misión</h3><p>Ofrecer una experiencia gastronómica que destaque el cacao y los sabores de Tabasco con calidad, creatividad y calidez.</p></article><article><span>02</span><h3>Visión</h3><p>Ser una propuesta reconocida por compartir la cultura del cacao tabasqueño y promover el orgullo por nuestra gastronomía.</p></article><article><span>03</span><h3>Filosofía</h3><p>Honrar el origen, valorar el trabajo de quienes cultivan y transformar ingredientes locales con respeto e imaginación.</p></article></div></div></section>
+<section class="fact-band"><div><strong>ORIGEN</strong><span>Tabasco, México</span></div><div><strong>INGREDIENTE ESTRELLA</strong><span>Cacao y chocolate</span></div><div><strong>ESTILO</strong><span>Tradición con creatividad</span></div></section>
+<section id="menu" class="section menu-section"><div class="section-heading"><p class="eyebrow">HECHO CON CACAO</p><h2>Nuestro <span>menú</span></h2><p>Una propuesta de platillos y bebidas inspirados en los sabores de nuestra región.</p></div><div class="menu-categories" aria-label="Categorías de productos"><button type="button" class="active" data-filter="todos">Todos</button><button type="button" data-filter="bebidas">Bebidas</button><button type="button" data-filter="fuertes">Platos fuertes</button><button type="button" data-filter="postres">Postres</button><button type="button" data-filter="otros">Entradas y panadería</button><button type="button" data-filter="saber">Saber más</button></div><div class="menu-grid"><article class="menu-card" data-group="fuertes"><img src="Pollo en mole de cacao.JPG" alt="Pollo en mole de cacao"><div><span class="menu-category">PLATILLO FUERTE</span><h3>Pollo en mole de cacao</h3><p>Pollo bañado en mole especiado con cacao y notas ligeramente amargas.</p><strong>$185 MXN</strong><button type="button" class="learn-more" data-product="0">Saber más</button></div></article><article class="menu-card" data-group="bebidas"><img src="Chocolate artesanal.JPG" alt="Chocolate artesanal"><div><span class="menu-category">BEBIDA</span><h3>Chocolate artesanal</h3><p>Bebida caliente de cacao con canela y un toque de vainilla.</p><strong>$65 MXN</strong><button type="button" class="learn-more" data-product="1">Saber más</button></div></article><article class="menu-card" data-group="postres"><img src="pastel intenso de chocolate.JPG" alt="Pastel intenso de chocolate"><div><span class="menu-category">POSTRE</span><h3>Pastel intenso de chocolate</h3><p>Bizcocho húmedo con chocolate y una cubierta suave de cacao.</p><strong>$95 MXN</strong><button type="button" class="learn-more" data-product="2">Saber más</button></div></article><article class="menu-card" data-group="bebidas"><img src="Pozol con cacao.JPG" alt="Pozol con cacao"><div><span class="menu-category">BEBIDA TRADICIONAL</span><h3>Pozol con cacao</h3><p>Bebida tradicional de maíz y cacao, servida fría.</p><strong>$45 MXN</strong><button type="button" class="learn-more" data-product="3">Saber más</button></div></article><article class="menu-card" data-group="postres"><img src="brownie de cacao.JPG" alt="Brownie de cacao"><div><span class="menu-category">POSTRE</span><h3>Brownie de cacao</h3><p>Cuadro de chocolate con centro suave y trocitos de cacao.</p><strong>$70 MXN</strong><button type="button" class="learn-more" data-product="4">Saber más</button></div></article><article class="menu-card" data-group="otros"><img src="verduras en salsa de cacao.JPG" alt="Verduras con salsa de cacao"><div><span class="menu-category">ENTRADA</span><h3>Verduras con salsa de cacao</h3><p>Verduras de temporada con una salsa salada de cacao y especias.</p><strong>$90 MXN</strong><button type="button" class="learn-more" data-product="5">Saber más</button></div></article><article class="menu-card" data-group="postres"><img src="helado de chocolate.JPG" alt="Helado de chocolate"><div><span class="menu-category">POSTRE</span><h3>Helado de chocolate</h3><p>Helado cremoso de chocolate, terminado con nibs de cacao.</p><strong>$75 MXN</strong><button type="button" class="learn-more" data-product="6">Saber más</button></div></article><article class="menu-card" data-group="otros"><img src="galletas de cacao.JPG" alt="Galletas de cacao"><div><span class="menu-category">PANADERÍA</span><h3>Galletas de cacao</h3><p>Galletas horneadas con cacao y chispas de chocolate.</p><strong>$55 MXN</strong><button type="button" class="learn-more" data-product="7">Saber más</button></div></article></div><p class="menu-note">Precios ilustrativos para el proyecto escolar; pueden ajustarse según los costos reales.</p></section>
+<section id="especialidades" class="section specialties-section"><div class="section-heading"><p class="eyebrow">DEL CAMPO A LA COCINA</p><h2>Especialidades del <span>cacao</span></h2></div><div class="specialty-grid"><article class="specialty-card"><div class="specialty-number">01</div><h3>Historia y cultura</h3><p>El cacao tiene una larga historia en Mesoamérica y forma parte de tradiciones alimentarias y culturales de pueblos originarios. En Tabasco sigue siendo un símbolo de identidad regional.</p></article><article class="specialty-card"><div class="specialty-number">02</div><h3>Fermentación y secado</h3><p>Después de extraer las semillas de la mazorca, se fermentan durante varios días y luego se secan. Estos pasos ayudan a desarrollar los aromas que caracterizan al cacao.</p></article><article class="specialty-card"><div class="specialty-number">03</div><h3>Del grano a la barra</h3><p>El método bean-to-bar busca controlar el proceso desde la selección del grano hasta la barra: limpieza, tostado, descascarillado, molienda, refinado y moldeado.</p></article></div></section>
+<section id="galeria" class="section gallery-section"><div class="section-heading"><p class="eyebrow">UN MUNDO DE SABORES</p><h2>Galería de <span>inspiración</span></h2><p>Ilustraciones de muestra para organizar la galería. Puedes sustituirlas por fotografías propias.</p></div><div class="gallery-grid"><figure><img src="Fruto del cacao.jpg" alt="Mazorcas y granos de cacao"><figcaption>El fruto del cacao</figcaption></figure><figure><img src="planta de cacao.jpg" alt="Planta de cacao"><figcaption>El cultivo</figcaption></figure><figure><img src="Chocolate artesanal.JPG" alt="Chocolate artesanal"><figcaption>Chocolate artesanal</figcaption></figure><figure><img src="Pozol con cacao.JPG" alt="Pozol tradicional"><figcaption>Pozol con cacao</figcaption></figure><figure><img src="Pollo en mole de cacao.JPG" alt="Mole con cacao"><figcaption>Cocina con cacao</figcaption></figure><figure><img src="postre de chocolate.JPG" alt="Postre de chocolate"><figcaption>Postres de chocolate</figcaption></figure></div></section>
+<section id="equipo" class="section team-section"><div class="section-heading"><p class="eyebrow">QUIÉNES SOMOS</p><h2>Equipo <span>Sabor & Arte</span></h2><p>Reemplacen “Integrante” con los nombres completos del equipo y agreguen sus fotografías con uniforme de chef si la guía lo solicita.</p></div><div class="team-grid"><article class="team-card"><img src="imagenes/chef-placeholder.svg" alt="Espacio para fotografía del integrante 1"><h3>MIGUEL ANGEL ARIAS </h3><p>Líder y encargado de GitHub</p></article><article class="team-card"><img src="imagenes/chef-placeholder.svg" alt="Espacio para fotografía del integrante 2"><h3>FATIMA DEL PILAR PEREZ</h3><p>Investigación histórica</p></article><article class="team-card"><img src="imagenes/chef-placeholder.svg" alt="Espacio para fotografía del integrante 3"><h3>MARIA GUADALUPE DOMINGUEZ</h3><p>Menú y especialidades</p></article><article class="team-card"><img src="imagenes/chef-placeholder.svg" alt="Espacio para fotografía del integrante 4"><h3>ALEXIS GUTIERREZ</h3><p>Fotografías y diseño</p></article></div></section>
+<section id="reservaciones" class="section reservation-section"><div class="reservation-copy"><p class="eyebrow">TE ESPERAMOS</p><h2>Reserva tu <span>experiencia</span></h2><p>Completa el formulario de demostración para practicar cómo se vería una reservación en la página.</p><p class="small-note">Aviso: este formulario es demostrativo y no envía reservas reales.</p></div><form id="reservation-form" class="reservation-form"><label for="name">Nombre completo</label><input id="name" name="name" type="text" placeholder="Tu nombre" required><div class="form-row"><div><label for="date">Fecha</label><input id="date" name="date" type="date" required></div><div><label for="people">Personas</label><select id="people" name="people"><option>1</option><option selected>2</option><option>3</option><option>4</option><option>5</option><option>6 o más</option></select></div></div><label for="message">Comentarios (opcional)</label><textarea id="message" name="message" rows="3" placeholder="¿Alguna ocasión especial?"></textarea><button class="button button-gold" type="submit">Enviar solicitud de prueba</button><p id="form-message" class="form-message" aria-live="polite"></p></form></section>
+<section id="contacto" class="section contact-section"><div class="section-heading"><p class="eyebrow">ENCUÉNTRANOS</p><h2>Contacto</h2><p>Los datos siguientes son ficticios y se incluyen únicamente como ejemplo para el proyecto escolar.</p></div><div class="contact-grid"><article><span>⌖</span><h3>Ubicación de ejemplo</h3><p>C0malcalco, Tabasco, México</p></article><article><span>☎</span><h3>Teléfono de ejemplo</h3><p>9371384318</p></article><article><span>✉</span><h3>Correo de ejemplo</h3><p>contacto@saborarte.example</p></article><article><span>◷</span><h3>Horario de ejemplo</h3><p>Lunes a domingo · 1:00 p. m. – 9:00 p. m.</p></article></div></section></main>
+<footer class="site-footer"><a class="logo footer-logo" href="#inicio"><span class="logo-mark">✦</span><span>SABOR <em>&</em> ARTE<small> CACAO TABASQUEÑO</small></span></a><p>Un homenaje al cacao y a la gastronomía de Tabasco.</p><p class="copyright">© <span id="year"></span> Sabor & Arte · Proyecto escolar</p></footer>
+<dialog id="product-dialog" class="learn-more-dialog"><div class="detail-body"><button class="detail-close" type="button" aria-label="Cerrar">×</button><img id="detail-image" src="" alt=""><h2 id="detail-name"></h2><p id="detail-description"></p><p class="detail-price" id="detail-price"></p><h3>Ingredientes</h3><p id="detail-ingredients"></p><h3>¿Cómo se prepara?</h3><p id="detail-preparation"></p><h3>Técnicas utilizadas</h3><p id="detail-techniques"></p></div></dialog>
+<script>
+const products=[{"name": "Pollo en mole de cacao", "image": "Pollo en mole de cacao.JPG", "description": "Pollo bañado en mole especiado con cacao y notas ligeramente amargas.", "price": "185", "ingredients": "Pollo, cacao tostado, chiles secos, jitomate, cebolla, ajo, especias y caldo.", "preparation": "Cocer el pollo. Tostar ligeramente los chiles y especias; hidratar los chiles. Licuar con jitomate, cebolla, ajo y caldo. Cocinar la salsa a fuego bajo, añadir el cacao molido y mezclar hasta integrar. Incorporar el pollo y dejar que tome sabor.", "techniques": "Hervido, tostado, molienda y cocción a fuego lento."}, {"name": "Chocolate artesanal", "image": "Chocolate artesanal.JPG", "description": "Bebida caliente de cacao con canela y un toque de vainilla.", "price": "65", "ingredients": "Cacao o chocolate de mesa, leche o agua, canela, vainilla y azúcar opcional.", "preparation": "Calentar la leche o el agua con canela. Agregar el cacao o chocolate y mover hasta disolver. Añadir vainilla, endulzar al gusto y batir para formar espuma. Servir caliente.", "techniques": "Infusión, calentamiento y batido."}, {"name": "Pastel intenso de chocolate", "image": "pastel intenso de chocolate.JPG", "description": "Bizcocho húmedo con chocolate y una cubierta suave de cacao.", "price": "95", "ingredients": "Harina, cacao en polvo, huevos, azúcar, leche, aceite, polvo para hornear y chocolate para cobertura.", "preparation": "Mezclar ingredientes secos y húmedos por separado. Integrar sin batir de más. Verter en molde engrasado y hornear hasta que el centro esté cocido. Dejar enfriar y cubrir con crema de chocolate.", "techniques": "Mezclado, horneado y cobertura."}, {"name": "Pozol con cacao", "image": "Pozol con cacao.JPG", "description": "Bebida tradicional de maíz y cacao, servida fría.", "price": "45", "ingredients": "Masa de maíz nixtamalizado, cacao tostado y molido, agua fría y azúcar opcional.", "preparation": "Moler el cacao tostado. Integrarlo con la masa de maíz. Agregar agua poco a poco y batir hasta obtener una bebida uniforme. Servir fría, de preferencia en jícara.", "techniques": "Tostado, molienda, dilución y batido."}, {"name": "Brownie de cacao", "image": "brownie de cacao.JPG", "description": "Cuadro de chocolate con centro suave y trocitos de cacao.", "price": "70", "ingredients": "Chocolate, mantequilla, huevos, azúcar, harina, cacao en polvo y nibs de cacao.", "preparation": "Derretir chocolate con mantequilla. Mezclar con azúcar y huevos; incorporar harina y cacao. Agregar nibs, vaciar en molde y hornear hasta que los bordes estén firmes. Enfriar antes de cortar.", "techniques": "Fundido, mezclado y horneado."}, {"name": "Verduras con salsa de cacao", "image": "verduras en salsa de cacao.JPG", "description": "Verduras de temporada con una salsa salada de cacao y especias.", "price": "90", "ingredients": "Calabacita, zanahoria, brócoli, cacao sin azúcar, caldo vegetal, ajo, cebolla y especias.", "preparation": "Lavar y cortar las verduras. Cocerlas brevemente para conservar su textura. Sofreír ajo y cebolla, añadir caldo, especias y una pequeña cantidad de cacao; cocinar hasta obtener una salsa suave. Servir sobre las verduras.", "techniques": "Corte, cocción breve, sofrito y reducción."}, {"name": "Helado de chocolate", "image": "helado de chocolate.JPG", "description": "Helado cremoso de chocolate, terminado con nibs de cacao.", "price": "75", "ingredients": "Leche, crema, cacao en polvo, chocolate, azúcar y nibs de cacao.", "preparation": "Calentar leche y crema con azúcar, sin dejar hervir. Incorporar cacao y chocolate hasta disolver. Enfriar completamente y congelar en heladera o remover varias veces durante la congelación para mejorar la textura. Servir con nibs.", "techniques": "Calentamiento, emulsión, enfriamiento y congelación."}, {"name": "Galletas de cacao", "image": "galletas de cacao.JPG", "description": "Galletas horneadas con cacao y chispas de chocolate.", "price": "55", "ingredients": "Harina, mantequilla, azúcar, huevo, cacao, polvo para hornear y chispas de chocolate.", "preparation": "Batir mantequilla con azúcar, añadir huevo y mezclar. Incorporar harina, cacao y polvo para hornear. Agregar chispas, formar porciones y hornear hasta que los bordes estén firmes. Dejar enfriar.", "techniques": "Cremado, mezclado, formado y horneado."}];
+const dialog=document.getElementById('product-dialog');
+function showProduct(i){const p=products[i];if(!p)return;for(const [field,value] of Object.entries({name:p.name,description:p.description,price:'$'+p.price+' MXN',ingredients:p.ingredients,preparation:p.preparation,techniques:p.techniques})){document.getElementById('detail-'+field).textContent=value;}const im=document.getElementById('detail-image');im.src=p.image;im.alt=p.name;dialog.showModal();}
+document.querySelectorAll('.learn-more').forEach(b=>b.addEventListener('click',()=>showProduct(Number(b.dataset.product))));
+document.querySelector('.detail-close').addEventListener('click',()=>dialog.close());dialog.addEventListener('click',e=>{if(e.target===dialog)dialog.close()});
+document.querySelectorAll('.menu-categories button').forEach(b=>b.addEventListener('click',()=>{document.querySelectorAll('.menu-categories button').forEach(x=>x.classList.remove('active'));b.classList.add('active');const f=b.dataset.filter;document.querySelectorAll('.menu-card').forEach(card=>card.hidden=f!=='todos'&&f!=='saber'&&card.dataset.group!==f);if(f==='saber')document.querySelector('.menu-grid').scrollIntoView({behavior:'smooth',block:'start'});}));
+</script></body></html>
